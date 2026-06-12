@@ -597,6 +597,17 @@ ul, ol {
 .callout[data-callout="danger"],
 .callout[data-callout="bug"]     { border-left-color: #f87171; }
 
+/* Callout rails — darkened for the light paper background */
+.theme-light .callout[data-callout="info"]    { border-left-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 30%); }
+.theme-light .callout[data-callout="success"],
+.theme-light .callout[data-callout="done"],
+.theme-light .callout[data-callout="check"]   { border-left-color: #2e7d4f; }
+.theme-light .callout[data-callout="warning"],
+.theme-light .callout[data-callout="caution"] { border-left-color: #96621f; }
+.theme-light .callout[data-callout="error"],
+.theme-light .callout[data-callout="danger"],
+.theme-light .callout[data-callout="bug"]     { border-left-color: #b3564d; }
+
 .callout-title {
   font-weight: 600;
   color: var(--text-normal);
