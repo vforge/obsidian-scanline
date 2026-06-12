@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="scanline.svg" alt="Scanline logo" width="360">
+</p>
+
 # Scanline
 
 A terminal/TUI-inspired theme for [Obsidian](https://obsidian.md).
