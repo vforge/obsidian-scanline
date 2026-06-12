@@ -70,7 +70,7 @@ https://github.com/vforge/obsidian-scanline
   --link-color: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 10%));
   --link-color-hover: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 20%));
   --link-external-color: hsl(calc(var(--accent-h) + 60), 30%, 60%);
-  --link-unresolved-color: hsl(var(--accent-h), 15%, 35%);
+  --link-unresolved-color: hsl(var(--accent-h), 18%, 58%);
 
   /* Headings — fade from white toward accent */
   --h1-color: hsl(var(--accent-h), 12%, 88%);
@@ -180,6 +180,14 @@ body {
   --accent-h: 96;
   --accent-s: 100%;
   --accent-l: 50%;
+
+  /* Links carry a single subtle border-bottom (see LINKS section) —
+     disable Obsidian's own text-decoration underline so they don't stack */
+  --link-decoration: none;
+  --link-decoration-hover: none;
+  --link-external-decoration: none;
+  --link-external-decoration-hover: none;
+  --link-unresolved-opacity: 0.8;
 
   --font-text: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
   --font-monospace: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
@@ -389,7 +397,6 @@ a:hover,
 
 .is-unresolved {
   color: var(--link-unresolved-color);
-  opacity: 0.6;
   border-bottom-style: dashed;
 }
 
