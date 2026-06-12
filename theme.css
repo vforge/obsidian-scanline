@@ -140,7 +140,7 @@ https://github.com/vforge/obsidian-scanline
   /* Code */
   --code-normal: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 28%);
   --code-background: #d8d1bd;
-  --code-comment: #a99e85;
+  --code-comment: #8d8269;
 
   /* Tags */
   --tag-background: hsla(var(--accent-h), calc(var(--accent-s) * 0.55), 33%, 0.08);
@@ -454,6 +454,13 @@ a:hover,
 .cm-s-obsidian span.cm-variable { color: var(--text-normal); }
 .cm-s-obsidian span.cm-operator { color: hsl(var(--accent-h), var(--accent-s), var(--accent-l)); }
 .cm-s-obsidian span.cm-property { color: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 20%)); }
+
+/* Syntax highlights — darkened for the light paper background */
+.theme-light .cm-s-obsidian span.cm-string { color: #2e7d4f; }
+.theme-light .cm-s-obsidian span.cm-number { color: #96621f; }
+.theme-light .cm-s-obsidian span.cm-keyword { color: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 26%); }
+.theme-light .cm-s-obsidian span.cm-operator { color: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 30%); }
+.theme-light .cm-s-obsidian span.cm-property { color: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 24%); }
 
 /* ============================================================
    BLOCKQUOTES
