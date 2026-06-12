@@ -94,27 +94,27 @@ https://github.com/vforge/obsidian-scanline
    ============================================================ */
 
 .theme-light {
-  /* Backgrounds — warm paper, e-reader feel */
-  --background-primary: #f4efe4;
-  --background-primary-alt: #efe9db;
-  --background-secondary: #e9e2d0;
-  --background-secondary-alt: #e2dac5;
+  /* Backgrounds — warm muted paper, e-reader feel */
+  --background-primary: #ebe6da;
+  --background-primary-alt: #e5e0d2;
+  --background-secondary: #ded8c8;
+  --background-secondary-alt: #d6cfbd;
 
   /* Modifiers */
   --background-modifier-border: rgba(74, 60, 36, 0.12);
-  --background-modifier-form-field: #efe9db;
-  --background-modifier-form-field-highlighted: #e9e2d0;
+  --background-modifier-form-field: #e5e0d2;
+  --background-modifier-form-field-highlighted: #ded8c8;
   --background-modifier-box-shadow: rgba(74, 60, 36, 0.18);
   --background-modifier-success: #4a7c59;
   --background-modifier-error: #b3564d;
   --background-modifier-error-hover: #9c4138;
-  --background-modifier-cover: rgba(244, 239, 228, 0.88);
+  --background-modifier-cover: rgba(235, 230, 218, 0.88);
 
   /* Text — warm sepia ink, never pure black */
   --text-normal: #3b352a;
   --text-muted: #847a66;
   --text-faint: #a99e85;
-  --text-on-accent: #f4efe4;
+  --text-on-accent: #ebe6da;
   --text-selection: rgba(124, 105, 66, 0.18);
 
   /* Accent — darkened and tamed for contrast on paper */
@@ -124,14 +124,14 @@ https://github.com/vforge/obsidian-scanline
   --text-accent-hover: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 22%);
 
   /* Interactive */
-  --interactive-normal: #e9e2d0;
-  --interactive-hover: #e2dac5;
+  --interactive-normal: #ded8c8;
+  --interactive-hover: #d6cfbd;
   --interactive-success: #4a7c59;
 
   /* Scrollbar */
-  --scrollbar-active-thumb-bg: #c9bfa6;
+  --scrollbar-active-thumb-bg: #bfb59c;
   --scrollbar-bg: transparent;
-  --scrollbar-thumb-bg: #d9d1bb;
+  --scrollbar-thumb-bg: #cfc7b1;
 
   /* Dividers — soft sepia hairlines */
   --divider-color: rgba(74, 60, 36, 0.12);
@@ -139,7 +139,7 @@ https://github.com/vforge/obsidian-scanline
 
   /* Code */
   --code-normal: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 28%);
-  --code-background: #ede6d6;
+  --code-background: #e2dcca;
   --code-comment: #a99e85;
 
   /* Tags */
