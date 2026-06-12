@@ -95,26 +95,26 @@ https://github.com/vforge/obsidian-scanline
 
 .theme-light {
   /* Backgrounds — warm muted paper, e-reader feel */
-  --background-primary: #ebe6da;
-  --background-primary-alt: #e5e0d2;
-  --background-secondary: #ded8c8;
-  --background-secondary-alt: #d6cfbd;
+  --background-primary: #e1dbcc;
+  --background-primary-alt: #dbd4c3;
+  --background-secondary: #d3ccb8;
+  --background-secondary-alt: #cbc3ac;
 
   /* Modifiers */
   --background-modifier-border: rgba(74, 60, 36, 0.12);
-  --background-modifier-form-field: #e5e0d2;
-  --background-modifier-form-field-highlighted: #ded8c8;
+  --background-modifier-form-field: #dbd4c3;
+  --background-modifier-form-field-highlighted: #d3ccb8;
   --background-modifier-box-shadow: rgba(74, 60, 36, 0.18);
   --background-modifier-success: #4a7c59;
   --background-modifier-error: #b3564d;
   --background-modifier-error-hover: #9c4138;
-  --background-modifier-cover: rgba(235, 230, 218, 0.88);
+  --background-modifier-cover: rgba(225, 219, 204, 0.88);
 
   /* Text — warm sepia ink, never pure black */
   --text-normal: #3b352a;
   --text-muted: #847a66;
   --text-faint: #a99e85;
-  --text-on-accent: #ebe6da;
+  --text-on-accent: #e1dbcc;
   --text-selection: rgba(124, 105, 66, 0.18);
 
   /* Accent — darkened and tamed for contrast on paper */
@@ -124,14 +124,14 @@ https://github.com/vforge/obsidian-scanline
   --text-accent-hover: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 22%);
 
   /* Interactive */
-  --interactive-normal: #ded8c8;
-  --interactive-hover: #d6cfbd;
+  --interactive-normal: #d3ccb8;
+  --interactive-hover: #cbc3ac;
   --interactive-success: #4a7c59;
 
   /* Scrollbar */
-  --scrollbar-active-thumb-bg: #bfb59c;
+  --scrollbar-active-thumb-bg: #b1a788;
   --scrollbar-bg: transparent;
-  --scrollbar-thumb-bg: #cfc7b1;
+  --scrollbar-thumb-bg: #c2b99e;
 
   /* Dividers — soft sepia hairlines */
   --divider-color: rgba(74, 60, 36, 0.12);
@@ -139,7 +139,7 @@ https://github.com/vforge/obsidian-scanline
 
   /* Code */
   --code-normal: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 28%);
-  --code-background: #e2dcca;
+  --code-background: #d8d1bd;
   --code-comment: #a99e85;
 
   /* Tags */
