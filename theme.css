@@ -69,8 +69,8 @@ https://github.com/vforge/obsidian-scanline
   /* Links */
   --link-color: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 10%));
   --link-color-hover: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 20%));
-  --link-external-color: hsl(calc(var(--accent-h) + 60), 30%, 60%);
-  --link-unresolved-color: hsl(var(--accent-h), 18%, 58%);
+  --link-external-color: hsl(calc(var(--accent-h) + 25), calc(var(--accent-s) * 0.6), calc(var(--accent-l) + 10%));
+  --link-unresolved-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.45), calc(var(--accent-l) + 8%));
 
   /* Headings — fade from white toward accent */
   --h1-color: hsl(var(--accent-h), 12%, 88%);
@@ -151,8 +151,8 @@ https://github.com/vforge/obsidian-scanline
   /* Links */
   --link-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 30%);
   --link-color-hover: hsl(var(--accent-h), calc(var(--accent-s) * 0.55), 22%);
-  --link-external-color: hsl(calc(var(--accent-h) + 60), 35%, 35%);
-  --link-unresolved-color: hsl(var(--accent-h), 12%, 55%);
+  --link-external-color: hsl(calc(var(--accent-h) + 25), calc(var(--accent-s) * 0.5), 32%);
+  --link-unresolved-color: hsl(var(--accent-h), calc(var(--accent-s) * 0.35), 40%);
 
   /* Headings — warm ink fading toward accent */
   --h1-color: #3b352a;
@@ -187,7 +187,7 @@ body {
   --link-decoration-hover: none;
   --link-external-decoration: none;
   --link-external-decoration-hover: none;
-  --link-unresolved-opacity: 0.8;
+  --link-unresolved-opacity: 0.9;
 
   --font-text: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
   --font-monospace: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
@@ -392,7 +392,7 @@ a:hover,
 
 .external-link {
   color: var(--link-external-color);
-  border-bottom-color: hsla(calc(var(--accent-h) + 60), 30%, 60%, 0.2);
+  border-bottom-color: hsla(calc(var(--accent-h) + 25), calc(var(--accent-s) * 0.6), calc(var(--accent-l) + 10%), 0.25);
 }
 
 .is-unresolved {
