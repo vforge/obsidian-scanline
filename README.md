@@ -6,6 +6,8 @@
 
 A terminal/TUI-inspired theme for [Obsidian](https://obsidian.md).
 
+Scanline is a personal theme — I built it for myself and use it daily as the primary theme across several of my vaults and projects. It's calm and clean, with a retro CRT/TUI aesthetic: monospace-forward typography, quiet borders, and a palette that follows your accent color. Published here in case it suits your screen too.
+
 ![Scanline screenshot](screenshot.png)
 
 ## Look & feel
