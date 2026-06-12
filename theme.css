@@ -741,6 +741,8 @@ button.mod-cta:hover {
 .graph-view.color-fill-attachment { color: #e2a861; }
 .graph-view.color-fill-unresolved { color: var(--link-unresolved-color); }
 
+.theme-light .graph-view.color-fill-attachment { color: #96621f; }
+
 /* ============================================================
    SELECTION & FOCUS
    ============================================================ */
