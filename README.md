@@ -12,7 +12,7 @@ Scanline is a personal theme — I built it for myself and use it daily as the p
 
 ## Look & feel
 
-- **Dark mode** — near-black with a muted steel-blue undertone, monospace-forward typography, barely-there borders. Feels like a well-configured terminal.
+- **Dark mode** — near-black with a phosphor glow, monospace-forward typography, barely-there borders. Feels like a well-configured terminal.
 - **Light mode** — warm paper tones, soft sepia ink. E-reader friendly and soothing on the eyes.
 - **Accent-aware** — the whole palette (headings, links, tags, file tree, syntax) derives from your accent color. Defaults to a phosphor green; change it under **Settings → Appearance → Accent color** and the theme follows.
 - Understated headings, terminal-style code blocks, monospace tag badges, thin scrollbars, quiet status bar.
